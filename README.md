@@ -18,11 +18,11 @@ Feature Observations: Initial EDA suggested relationships between claims and fea
 
 Models were evaluated using ROC-AUC, Precision, Recall, and F1-score on the test set:
 
-##1. Logistic Regression: ROC-AUC: 0.687, Precision (Class 1): 0.59, Recall (Class 1): 0.15
+1. Logistic Regression: ROC-AUC: 0.687, Precision (Class 1): 0.59, Recall (Class 1): 0.15
 
-##2. Random Forest: ROC-AUC: 0.688, Precision (Class 1): 0.60, Recall (Class 1): 0.21
+2. Random Forest: ROC-AUC: 0.688, Precision (Class 1): 0.60, Recall (Class 1): 0.21
 
-##3. Gradient Boosting: ROC-AUC: 0.694, Precision (Class 1): 0.60, Recall (Class 1): 0.21
+3. Gradient Boosting: ROC-AUC: 0.694, Precision (Class 1): 0.60, Recall (Class 1): 0.21
 
 Conclusion: The Gradient Boosting model achieved the highest ROC-AUC, making it the most suitable model for identifying risky buildings.
 
